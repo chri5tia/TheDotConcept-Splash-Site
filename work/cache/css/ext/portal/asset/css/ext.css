@@ -1,0 +1,42 @@
+/*
+ * ----------------------------------------------
+ * Extension icon: stand-alone and in heading
+ * ----------------------------------------------
+ */
+span.extIconPortal {
+  background: url(../../../../../../ext/portal/asset/css/../img/exticon.png) no-repeat 0 0; }
+
+  h1.extIconPortal .title {
+    background: url(../../../../../../ext/portal/asset/css/../img/exticon.png) no-repeat 0 5px; }
+
+/*
+ * -----------------
+ * Sub menu
+ * -----------------
+ */
+  #navi-main-list-portal li {
+        /*
+     * Selection
+     */
+        /*
+     * To do
+     */ }
+    #navi-main-list-portal li a {
+      background-image: url(../../../../../../ext/portal/asset/css/../img/icons.png) !important;
+      background-repeat: no-repeat; }
+    #navi-main-list-portal li.itemSelection a {
+      background-position: 6px 5px; }
+    #navi-main-list-portal li.itemTodo a {
+      background-position: 6px -55px; }
+
+/*
+ * -----------------
+ * Tabs
+ * -----------------
+ */
+#portal-tab-selection span.icon {
+  background: url(../../../../../../ext/portal/asset/css/../img/icons.png) no-repeat 0 3px; }
+
+#portal-tab-todo span.icon {
+  background: url(../../../../../../ext/portal/asset/css/../img/icons.png) no-repeat 0 -55px; }
+

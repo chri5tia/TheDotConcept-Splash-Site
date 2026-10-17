@@ -1,0 +1,44 @@
+<?php
+/****************************************************************************
+* todoyu is published under the BSD License:
+* http://www.opensource.org/licenses/bsd-license.php
+*
+* Copyright (c) 2012, snowflake productions GmbH, Switzerland
+* All rights reserved.
+*
+* This script is part of the todoyu project.
+* The todoyu project is free software; you can redistribute it and/or modify
+* it under the terms of the BSD License.
+*
+* This script is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the BSD License
+* for more details.
+*
+* This copyright notice MUST APPEAR in all copies of the script.
+*****************************************************************************/
+
+	// ****************************************************************************
+	// ATTENTION - TODOYU MANAGED FILE
+	// THIS FILE IS AUTOMATICALLY UPDATED BY TODOYU
+	//
+	// EVERYTHING EXCEPT THE 'extConf' KEYS WILL BE REMOVED ON NEXT CONFIG UPDATE
+	// ****************************************************************************
+
+	// Extension config
+Todoyu::$CONFIG['EXT']['project']['extConf'] = unserialize(stripslashes('a:0:{}'));
+Todoyu::$CONFIG['EXT']['sysmanager']['extConf'] = unserialize(stripslashes('a:0:{}'));
+Todoyu::$CONFIG['EXT']['loginpage']['extConf'] = unserialize(stripslashes('a:0:{}'));
+Todoyu::$CONFIG['EXT']['portal']['extConf'] = unserialize(stripslashes('a:0:{}'));
+Todoyu::$CONFIG['EXT']['calendar']['extConf'] = unserialize(stripslashes('a:0:{}'));
+Todoyu::$CONFIG['EXT']['timetracking']['extConf'] = unserialize(stripslashes('a:0:{}'));
+Todoyu::$CONFIG['EXT']['daytracks']['extConf'] = unserialize(stripslashes('a:0:{}'));
+Todoyu::$CONFIG['EXT']['search']['extConf'] = unserialize(stripslashes('a:0:{}'));
+Todoyu::$CONFIG['EXT']['bookmark']['extConf'] = unserialize(stripslashes('a:0:{}'));
+Todoyu::$CONFIG['EXT']['contact']['extConf'] = unserialize(stripslashes('a:0:{}'));
+Todoyu::$CONFIG['EXT']['comment']['extConf'] = unserialize(stripslashes('a:0:{}'));
+Todoyu::$CONFIG['EXT']['profile']['extConf'] = unserialize(stripslashes('a:0:{}'));
+Todoyu::$CONFIG['EXT']['assets']['extConf'] = unserialize(stripslashes('a:3:{s:17:\"preview_max_width\";s:3:\"600\";s:18:\"preview_max_height\";s:3:\"450\";s:15:\"preview_quality\";s:3:\"100\";}'));
+Todoyu::$CONFIG['EXT']['firststeps']['extConf'] = unserialize(stripslashes('a:1:{s:13:\"disableWizard\";i:1;}'));
+
+?>

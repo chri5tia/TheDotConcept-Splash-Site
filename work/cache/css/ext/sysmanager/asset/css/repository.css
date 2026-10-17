@@ -1,0 +1,206 @@
+/*
+ * -----------------------
+ * Extension Listing
+ * -----------------------
+ */
+.extListing .extension {
+  border-bottom: 1px solid #cccccc;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  width: 870px; }
+  .extListing .extension h5 {
+    border-bottom: none;
+    margin-bottom: 10px;
+    padding-left: 0; }
+    .extListing .extension h5 div {
+      width: 100%; }
+    .extListing .extension h5 img {
+      left: 0;
+      position: absolute;
+      top: 8px; }
+    .extListing .extension h5 .author {
+      margin-left: 10px; }
+    .extListing .extension h5 .title {
+      font-size: 20px; }
+  .extListing .extension .bottom {
+    width: 100%;
+    clear: both;
+    margin-top: 5px; }
+    .extListing .extension .bottom button {
+      float: right;
+      margin: 0 10px; }
+  .extListing .extension .warning {
+    background-color: #f8f8f8;
+    border: 2px dashed red;
+    margin-top: 10px;
+    padding: 5px; }
+    .extListing .extension .warning ul {
+      list-style-position: inside;
+      list-style-type: square; }
+      .extListing .extension .warning ul li {
+        color: red;
+        cursor: pointer; }
+  .extListing .extension .main {
+    margin-left: 30px;
+    margin-right: 50px;
+    width: 560px; }
+  .extListing .extension .right {
+    width: 200px;
+    padding-left: 10px; }
+    .extListing .extension .right div {
+      padding: 5px;
+      border-bottom: 1px solid #cccccc; }
+  .extListing .extension > div {
+    float: left;
+    clear: none; }
+
+.coreUpdate .installButtons button .icon,
+.extListing .extension .bottom button .icon {
+  background-image: url(../../../../../../ext/sysmanager/asset/css/../img/icons.png); }
+
+.coreUpdate .installButtons button.info .icon,
+.extListing .extension .bottom button.info .icon {
+  background-position: 5px -748px;
+  width: 22px; }
+
+.coreUpdate .installButtons button.update .icon,
+.extListing .extension .bottom button.update .icon {
+  background-position: 0 -28px; }
+
+.extListing .extension .bottom button.install .icon {
+  background-position: 5px -28px;
+  width: 22px; }
+
+/*
+ * -----------------------
+ * Search
+ * -----------------------
+ */
+.extensionSearch .control {
+  margin-bottom: 10px; }
+
+.resultinfo {
+  background-color: #eeeeee;
+  margin-bottom: 10px;
+  padding: 10px; }
+    .resultinfo.error .message {
+      font-family: Courier, monospace;
+      font-size: 14px;
+      margin-bottom: 5px; }
+    .resultinfo.error .title {
+      color: red;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px; }
+
+/*
+ * -----------------------
+ * Updates
+ * -----------------------
+ */
+/*
+ * Core update
+ */
+.repositoryUpdates .coreUpdate {
+  padding: 12px 12px 24px 12px;
+  margin: 6px 0 20px 0;
+  background-color: lightyellow; }
+  .repositoryUpdates .coreUpdate .installButtons {
+    float: right; }
+  .repositoryUpdates .coreUpdate .coreUpdateInfos {
+    float: left; }
+    .repositoryUpdates .coreUpdate .coreUpdateInfos th {
+      width: 100px; }
+
+.repositoryUpdates .coreUpdate .coreUpdateInfos td,
+.repositoryUpdates .coreUpdate .coreUpdateInfos th {
+  padding: 3px; }
+
+/*
+ * -----------------------
+ * Dialog
+ * -----------------------
+ */
+.repositoryDialog {
+  padding: 10px; }
+  .repositoryDialog h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left; }
+  .repositoryDialog .buttons {
+    clear: both;
+    margin-top: 20px;
+    padding-top: 10px; }
+  .repositoryDialog .col {
+    clear: none;
+    float: left; }
+  .repositoryDialog.coreDialog button.install .icon {
+    background: url(../../../../../../ext/sysmanager/asset/css/../img/icons.png) no-repeat 0 -28px; }
+  .repositoryDialog .info {
+    margin-top: 5px;
+    padding: 5px; }
+      .repositoryDialog.extensionDialog .extInstall .acceptlicense {
+        text-align: left;
+        font-weight: bold; }
+        .repositoryDialog.extensionDialog .extInstall .acceptlicense input {
+          width: 20px; }
+      .repositoryDialog.extensionDialog .extInstall .license {
+        background-color: white;
+        font-family: Courier, monospace;
+        font-size: 12px;
+        height: 200px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        overflow: auto;
+        padding: 10px;
+        text-align: left; }
+      .repositoryDialog.extensionDialog .extInstall .licenseinfo {
+        background-color: #e3eace;
+        text-align: left; }
+        .repositoryDialog.extensionDialog .extInstall .licenseinfo.buyextension {
+          background-color: transparent; }
+          .repositoryDialog.extensionDialog .extInstall .licenseinfo.buyextension a {
+            background: url(../../../../../../ext/sysmanager/asset/css/../img/icons.png) no-repeat 0 -718px;
+            font-size: 16px;
+            font-weight: bold;
+            padding-left: 20px;
+            text-decoration: underline; }
+            .repositoryDialog.extensionDialog .extInstall .licenseinfo.buyextension a:hover {
+              color: #444444; }
+        .repositoryDialog.extensionDialog .extInstall .licenseinfo.noLicense {
+          background-color: red;
+          color: white;
+          text-align: left; }
+      .repositoryDialog.extensionDialog .extInstall .warningMajorUpdate {
+        background-color: red;
+        color: white; }
+    .repositoryDialog.extensionDialog button.install .icon {
+      background: url(../../../../../../ext/sysmanager/asset/css/../img/icons.png) no-repeat 0 -28px; }
+  .repositoryDialog .versionDetails {
+    margin-left: 20px;
+    width: 240px; }
+    .repositoryDialog .versionDetails td {
+      width: 130px; }
+    .repositoryDialog .versionDetails th {
+      width: 80px; }
+  .repositoryDialog .versionInformation {
+    padding: 10px;
+    text-align: left;
+    width: 300px; }
+    .repositoryDialog .versionInformation ul {
+      list-style: square inside; }
+    .repositoryDialog .versionInformation .subtitle {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px; }
+
+.repositoryDialog .versionDetails table td,
+.repositoryDialog .versionDetails table th {
+  padding: 3px;
+  border-bottom: 1px solid #cccccc;
+  text-align: left; }
+

@@ -1,0 +1,51 @@
+/*
+ * ----------------------
+ * contentItem Tabs
+ * ----------------------
+ */
+.contentItemTabContainer .tabs {
+  top: 0;
+  left: 0;
+  width: auto;
+  margin: 0 10px; }
+
+.contentItemTabContainer {
+  margin-top: 10px; }
+
+contentItemTabContainer .tabs li {
+  background-color: #edf1e0 !important; }
+
+.contentItemTabContainer .tabs li:hover,
+.contentItemTabContainer .tabs li.active {
+  background-color: #e3eace !important; }
+
+/*
+ * contentItem tabs content
+ */
+.contentItemTabContainer .tabContent {
+  background-color: #e3eace;
+    /*
+   * border-bottom:1px solid $colorNeutral02;
+   */ }
+
+.contentItemTabContainer .tabContent .tab {
+  margin: 9px;
+  border: 1px solid #eeeeee; }
+
+.contentItemTabContainer .tabContent .tabBlock {
+  position: relative;
+  background: white; }
+
+.contentItemTabContainer .tabContent .tab {
+  padding: 5px;
+  background: white; }
+
+.contentItemTabContainer .tabContent .tabBlock .toggle {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25px;
+  height: 30px;
+  background: #d0d6be url(../../../../../core/asset/css/../img/toggle.png) no-repeat 0 -65px; }
+

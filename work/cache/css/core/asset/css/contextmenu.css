@@ -1,0 +1,54 @@
+#contextmenu {
+  display: none;
+  position: absolute;
+  width: 180px;
+  z-index: 100000;
+  background-color: #eeeeee;
+  box-shadow: 2px 2px 7px #999999; }
+  #contextmenu li {
+    border: 1px solid #dddddd;
+    margin-bottom: -1px; }
+    #contextmenu li a,
+    #contextmenu li span {
+      display: block;
+      padding: 4px 10px 4px 29px;
+      line-height: 12px;
+      cursor: pointer;
+      text-align: left;
+      background-color: #f8f8f8;
+      background-repeat: no-repeat; }
+    #contextmenu li a:hover,
+    #contextmenu li span:hover {
+      background-color: #e1e5d8; }
+    #contextmenu li ul {
+      display: none;
+      position: absolute;
+      z-index: 100001;
+      width: 156px;
+      box-shadow: 2px 2px 7px #999999; }
+    #contextmenu li.header a {
+      padding: 0 5px;
+      background-color: #4f8ab4 !important;
+      color: white;
+      cursor: default;
+      font-weight: bold;
+      font-size: 10px; }
+    #contextmenu li .disabled {
+      color: #cccccc;
+      cursor: no-drop; }
+
+/*
+ * -----------------------------------
+ * Selected and disabled options
+ * -----------------------------------
+ */
+ul.context-menu li a.selected,
+ul.context-submenu li a.selected {
+  background: url(../../../../../core/asset/css/../../asset/img/icons.png) no-repeat 12px -870px #c9dbd4; }
+
+.context-menu li a.disabled,
+.context-submenu li a.disabled {
+  cursor: default !important;
+  color: #999999 !important;
+  background: url(../../../../../core/asset/css/../../asset/img/icons.png) repeat-x 0 -1540px !important; }
+

@@ -1,0 +1,146 @@
+/*
+ * ---------------
+ * Grid
+ * ---------------
+ */
+.mainGrid {
+  border-bottom: 1px solid #dddddd;
+  background: #d0d6be; }
+
+#gridContainer {
+  background: #f2f3ed;
+  position: relative;
+  overflow: hidden; }
+
+/*
+ * Scrolling or not
+ */
+#calendarBody {
+  overflow: hidden; }
+  #calendarBody.month {
+    height: auto; }
+  #calendarBody.full {
+    overflow: visible; }
+
+#tgnowptr {
+  background: #f6f8f0 url(../../../../../../ext/calendar/asset/css/../img/background-hours.png) repeat-y; }
+
+#calendar .colHours {
+  background: #f6f8f0 url(../../../../../../ext/calendar/asset/css/../img/background-hours.png) repeat-y; }
+  #calendar .colHours .hour {
+    padding-left: 2px;
+    color: #444444;
+    height: 41px;
+    margin-top: 1px;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: default; }
+    #calendar .colHours .hour:hover {
+      background-color: lightyellow; }
+    #calendar .colHours .hour.currentHour {
+      font-weight: bold; }
+
+#calendar .dayMode .colHours .hour {
+  cursor: pointer; }
+
+/*
+ * Marker layer of current hour
+ */
+#currentTimePastArea {
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  pointer-events: none;
+  background-color: #cccccc;
+  opacity: 0.4;
+  overflow: hidden; }
+
+#currentTimeMarker {
+  position: absolute;
+  z-index: 20;
+  height: 2px;
+  width: 100%;
+  pointer-events: none;
+  background-color: red; }
+
+.timeSpacer {
+  width: 4.5%; }
+
+.dayEvents {
+  background-color: white;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #d0d6be; }
+  .dayEvents table {
+    table-layout: fixed;
+    width: 100%; }
+
+/*
+ * ----------------------
+ * Area tabs
+ * ----------------------
+ */
+#calendar-tabs span.icon {
+  background-image: url(../../../../../../ext/calendar/asset/css/../img/icons.png); }
+
+#calendar-tab-day span.icon {
+  background-position: 2px -204px; }
+
+#calendar-tab-week span.icon {
+  background-position: 2px -234px; }
+
+#calendar-tab-month span.icon {
+  background-position: 2px -264px; }
+
+#calendar-tab-edit,
+#calendar-tab-view {
+  float: right !important; }
+
+#calendar-tab-edit span.icon {
+  background-position: 2px -24px; }
+
+#calendar-tab-view span.icon {
+  background-position: 2px 6px; }
+
+/*
+ * ----------------------
+ * Calendar
+ * ----------------------
+ */
+#calendar {
+  background-color: white; }
+
+#calendar-body {
+  background-color: white;
+  padding-bottom: 10px;
+  width: 100%; }
+
+/*
+ * ------------------------
+ * Create or update event
+ * ------------------------
+ */
+li.editeventtab p.label span.icon {
+  background: transparent url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll -1px -30px;
+  margin-right: 2px; }
+
+  #createevent .label {
+    float: left;
+    font-weight: bold;
+    width: 125px; }
+  #createevent .saveButton {
+    background-color: green;
+    color: white; }
+  #createevent #repeatsChoices {
+    background-color: #f6f8f0;
+    margin-left: 130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 4px; }
+  #createevent #repeatsChoices_when {
+    margin-top: 10px;
+    font-weight: bold; }
+  #createevent #repeatsChoices_area {
+    margin-top: 10px;
+    font-weight: bold; }
+

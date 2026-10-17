@@ -1,0 +1,15 @@
+  .progressBox .bar {
+    width: 180px;
+    height: 16px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    margin-top: 5px; }
+  .progressBox .progress {
+    background-color: #e3eace;
+    width: 0px;
+    height: 16px; }
+  .progressBox .button {
+    margin-top: 5px; }
+  .progressBox .cancelProgress .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 3px -357px; }
+

@@ -1,0 +1,425 @@
+form {
+  margin: 0px;
+  padding: 0px;
+    /*
+   * -------------------------------------------
+   * End: Special styles for involved persons
+   * ----------------------------------------------
+   */ }
+  form.fForm {
+    padding: 7px;
+    background-color: #eeeeee; }
+  form .databaseRelation {
+    margin-top: 5px;
+    padding-top: 5px; }
+    form .databaseRelation.isPreferred1 div.formtrigger span.label {
+      padding-left: 20px;
+      background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 0 -1790px; }
+    form .databaseRelation.isPreferred0 div.formtrigger span.label {
+      padding-left: 20px;
+      background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 0 -1825px; }
+  form div.typeDatabaseRelation div.formtrigger span.label.expanded {
+    font-weight: bold; }
+  form.formGeneral,
+  form.formPerson,
+  form.formRecord,
+  form.formRightseditor,
+  form.formConfig {
+    padding-top: 10px; }
+
+* html form {
+  height: 1%; }
+
+fieldset {
+  position: relative;
+  display: block;
+  margin: 0 0 7px 0;
+  padding: 40px 15px 15px 15px;
+  border: none;
+  background-color: white; }
+  fieldset fieldset,
+  fieldset.buttons {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    background: none; }
+
+fieldset fieldset {
+  width: 100%;
+  margin-top: 10px; }
+
+* html fieldset {
+  height: 1%;
+    /*
+   * IE6
+   */ }
+
+/*
+ * ------------------------
+ * Buttons, Footer line
+ * ------------------------
+ */
+fieldset.buttons {
+  margin: 0px;
+  padding: 0px;
+  text-align: right; }
+  fieldset.buttons .fElement {
+    margin-left: 5px; }
+
+.fForm fieldset#config-fieldset-save {
+  padding: 10px 0; }
+
+legend,
+.fForm fieldset fieldset legend,
+.fForm .buttons legend,
+.fForm legend#config-fieldset-save-legend {
+  display: none; }
+
+.fForm legend {
+  position: absolute;
+  margin: -40px 0 0 -15px;
+  display: block;
+  width: 100%;
+  padding: 7px 0;
+  text-indent: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid #eeeeee; }
+  .fForm legend a.ajaxloader {
+    padding-left: 32px;
+    padding-bottom: 20px;
+    background: url(../../../../../core/asset/css/../img/ajax-loader.gif) no-repeat 7px 0px; }
+
+textarea,
+select,
+input {
+  position: relative;
+  width: 100%;
+  border: 1px solid #010101;
+  padding: 1px;
+    /*
+   * hack to fix form elements width
+   */
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+select {
+  background-color: transparent; }
+
+input.checkbox,
+input.radio,
+input.button {
+  border: none;
+  width: auto; }
+
+input.datetime {
+  float: left;
+  width: 95px;
+  margin-right: 5px; }
+
+input.textAC {
+  background-image: url(../../../../../core/asset/css/../img/icons.png);
+  background-repeat: no-repeat;
+  background-position: 6px -808px;
+  background-color: #e3eace;
+  padding-left: 25px; }
+
+textarea {
+  font-size: 1em; }
+
+.scrollbarHide select {
+  min-width: 107%;
+  width: 100% !important;
+  width: 107%; }
+
+select {
+  text-transform: none; }
+  select.auto {
+    width: auto; }
+  select.day,
+  select.month {
+    width: 40px;
+    margin-right: 2px; }
+  select.monthnames {
+    margin-left: 2px; }
+  select.year {
+    width: 60px; }
+  select.datetime {
+    width: 150px; }
+  select option {
+    text-transform: none;
+    padding-left: 5px; }
+  select optgroup {
+    padding-top: 10px;
+    font-size: 11px; }
+    select optgroup option {
+      background: white; }
+
+select option.error,
+selectgrouped option.error {
+  color: #991010; }
+
+[disabled] {
+  background-color: #dddddd;
+  color: #444444; }
+
+/*
+ * ----------------------
+ * HTML building
+ * ----------------------
+ */
+div.fElement {
+  position: relative;
+  height: auto !important;
+  height: 1%;
+  margin: 0px;
+  padding: 3px 0; }
+  div.fElement .fLabel {
+    position: relative;
+    float: left;
+    width: 140px;
+    padding: 2px 0;
+    text-align: left; }
+  div.fElement .fField {
+        /*
+     * input
+     */
+    float: left;
+    width: 320px;
+    margin-left: 5px; }
+    div.fElement .fField .fLabel {
+      width: 100px; }
+    div.fElement .fField .fField {
+      width: 215px; }
+  div.fElement .fClear {
+    clear: both; }
+    div.fElement.typeRTE .fField {
+      width: 455px; }
+
+    .fField span.commenttext a,
+    .fField span.commenttext a:link {
+      text-decoration: underline; }
+
+/*
+ * -------------
+ * Types
+ * -------------
+ */
+div.typeDate .fField input {
+  float: left;
+  width: 70px;
+  margin-right: 5px; }
+
+div.typeDatetime .fField input {
+  float: left;
+  width: 90px;
+  margin-right: 5px; }
+
+div.typeTime .fField input,
+div.typeDuration .fField input {
+  float: left;
+  width: 33px; }
+
+/*
+ * Checkbox in a fField element.
+ */
+/*
+ * Example:Address in Ext Contact
+ */
+  .typeCheckbox .fField {
+    position: relative;
+    top: 3px; }
+    .typeCheckbox .fField input.checkbox {
+      width: auto; }
+    .typeCheckbox .fLabel label {
+      cursor: pointer; }
+
+  .typeDatabaseRelation .foreignRecordsActionControl {
+    display: block; }
+  .typeDatabaseRelation button.addForeignRecord .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 6px -567px;
+    width: 23px; }
+  .typeDatabaseRelation .databaseRelation {
+    position: relative;
+    border-top: 1px solid #cccccc; }
+    .typeDatabaseRelation .databaseRelation .formtrigger {
+      cursor: pointer; }
+      .typeDatabaseRelation .databaseRelation span.additionalStuff {
+        position: absolute;
+        top: 4px;
+        right: 0px; }
+        .typeDatabaseRelation .databaseRelation span.additionalStuff a.remove {
+          background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 0 -539px; }
+
+button.updateDatabase .icon {
+  width: 24px;
+  background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 4px -928px; }
+
+  .fElement .fField.hasWizard input {
+    width: 90%;
+    float: left; }
+  .fElement .fField.hasWizard .wizardIcon {
+    cursor: pointer; }
+
+fieldset.buttons div,
+fieldset.buttons div.fElement .fField {
+  float: left;
+  width: auto; }
+
+fieldset.buttons div.fElement .fLabel {
+  display: none;
+  width: auto; }
+
+/*
+ * -----------------
+ * Design
+ * -----------------
+ */
+input,
+textarea,
+select {
+  border-color: #999999 #eeeeee #eeeeee #999999; }
+
+fieldset.buttons div.fElement {
+  float: right; }
+
+/*
+ * --- right floating Input ---
+ */
+.formElement .formField {
+  width: 58%;
+  display: inline;
+  float: right; }
+
+/*
+ * ----------------------------------------------
+ * Additional information after input field
+ * ----------------------------------------------
+ */
+form .textAfterField {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px #999999;
+  color: #666666;
+  display: none;
+  margin: 1px 2px 0 0;
+  padding: 10px;
+  position: absolute;
+  text-align: left;
+  z-index: 9999;
+    /*
+   * always in front
+   */ }
+
+form .fField:hover .textAfterField {
+  display: block; }
+
+.dateElement input {
+  width: 73px !important;
+  width: 77px;
+  margin-right: 10px;
+  float: left; }
+
+  form .fElement.error .fLabel.error label,
+  form .fElement.error div.errorMessage {
+    color: red;
+    font-style: italic; }
+
+  form .fElement.warning .fLabel.warning label {
+    color: #ff8000;
+    font-style: italic; }
+
+/*
+ * -------------------------
+ * Auto-completer list
+ * -------------------------
+ */
+.acResultContainer {
+  z-index: 100;
+  border-top: 1px solid #cccccc;
+  box-shadow: 2px 2px 5px #999999; }
+  .acResultContainer ul {
+    padding: 0 !important; }
+  .acResultContainer li {
+    background: white;
+    border: 1px solid #cccccc;
+    border-top: none;
+    padding: 5px;
+    cursor: pointer;
+    text-align: left; }
+    .acResultContainer li.selected {
+      background: #edf1e0; }
+  .acResultContainer .empty {
+    background: none;
+    border: none;
+    border-width: 0px;
+    padding: 0px; }
+
+.fField .acResultContainer ul {
+  list-style: none; }
+
+/*
+ * --------------------
+ * Wizard icon
+ * --------------------
+ */
+  .fField span.wizardIcon {
+    height: 16px;
+    width: 16px;
+    display: block;
+    float: right;
+    background: transparent url(../../../../../core/asset/css/../img/icons.png) no-repeat 0 -90px; }
+  .fField .iconSelector {
+    width: auto; }
+    .fField .iconSelector .selectorIcon {
+      display: block;
+      height: 25px;
+      width: 25px;
+      margin: 9px 0 0 9px;
+      text-indent: -9999px; }
+    .fField .iconSelector li {
+      float: left;
+      cursor: pointer;
+      background-color: #eeeeee;
+      border: 1px dotted #999999; }
+      .fField .iconSelector li.selected {
+        border: 1px solid #999999;
+        background-color: #e3eace; }
+      .fField .iconSelector li:hover {
+        background-color: #dddddd; }
+
+/*
+ * ----------------------------------
+ * Quick creation light-box
+ * ----------------------------------
+ */
+#quickcreate,
+#quicktask {
+  text-align: left; }
+
+/*
+ * ---------------------------------------
+ * Error info: invalid items listing
+ * ---------------------------------------
+ */
+div.errorMessage ul.invalidItems {
+  font-style: normal;
+  border-left: 5px solid red;
+  padding-left: 5px;
+  list-style: square inside; }
+  div.errorMessage ul.invalidItems li {
+    font-weight: bold; }
+    div.errorMessage ul.invalidItems li ul {
+      list-style-type: square; }
+      div.errorMessage ul.invalidItems li ul li {
+        font-weight: normal;
+        margin-left: 20px; }
+
+/*
+ * ---------------------------------------
+ * Dialog behaviour (content smaller)
+ * ---------------------------------------
+ */
+      .dialog .fElement.typeRTE .fField {
+        width: 400px; }
+

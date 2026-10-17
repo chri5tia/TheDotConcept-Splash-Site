@@ -1,0 +1,6 @@
+AddType application/x-httpd-php70 .php
+
+
+RewriteOptions inherit
+
+AddHandler application/x-httpd-php52 .php .php5 .php4 .php3

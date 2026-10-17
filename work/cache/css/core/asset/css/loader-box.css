@@ -1,0 +1,37 @@
+.loaderBox {
+  position: fixed;
+  z-index: 300;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 2px 2px 7px #999999; }
+  .loaderBox div,
+  .loaderBox img {
+    float: left; }
+    .loaderBox div.title {
+      clear: both;
+      width: 282px;
+      padding: 5px;
+      background-color: #eeeeee;
+      font-weight: bold; }
+    .loaderBox div.content {
+      display: inline-block;
+      width: 180px;
+      padding: 20px;
+      text-align: left;
+      font-size: 12px; }
+  .loaderBox img.spinner {
+    clear: left;
+    padding: 20px;
+    width: 32px;
+    height: 32px; }
+
+#loader-box-screen-block {
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 250;
+  position: fixed;
+  opacity: 0.5; }
+

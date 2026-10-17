@@ -1,0 +1,108 @@
+/*
+ * ---------------------------
+ * Basic button styles
+ * ---------------------------
+ */
+button {
+  color: #010101;
+  cursor: pointer;
+  padding: 0px;
+  background: white;
+    /*
+   * Old browsers
+   */
+  background: -moz-linear-gradient(top, white 0%, #e0e0e0 100%);
+    /*
+   * FF3.6+
+   */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #e0e0e0));
+    /*
+   * Chrome,Safari4+
+   */
+  background: -webkit-linear-gradient(top, white 0%, #e0e0e0 100%);
+    /*
+   * Chrome10+,Safari5.1+
+   */
+  background: -o-linear-gradient(top, white 0%, #e0e0e0 100%);
+    /*
+   * Opera 11.10+
+   */
+  background: -ms-linear-gradient(top, white 0%, #e0e0e0 100%);
+    /*
+   * IE10+
+   */
+  background: linear-gradient(to bottom, white 0%, #e0e0e0 100%);
+    /*
+   * W3C
+   */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0', GradientType=0 );
+    /*
+   * IE6-9
+   */
+  border-radius: 13px;
+  border: 1px solid #bbbbbb;
+    /*
+   * ---------------------------
+   * Often used button icons
+   * ---------------------------
+   */ }
+  button[disabled] {
+    opacity: 0.6;
+    cursor: no-drop;
+    cursor: false; }
+  button span {
+    display: block;
+    float: left;
+    clear: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 20px;
+    height: 20px;
+    border-width: 0px; }
+    button span.icon {
+      background-repeat: no-repeat;
+      margin: 0 2px 0 2px; }
+    button span.label {
+      margin-right: 5px;
+      white-space: nowrap; }
+  button.edit .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 0 -746px; }
+  button.save .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 4px -208px;
+    width: 23px; }
+  button.cancel .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 5px -357px;
+    width: 21px; }
+  button.delete .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 4px -328px; }
+  button.expandAll .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 7px -598px;
+    width: 27px; }
+  button.saveanddownload .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 5px -838px;
+    width: 22px; }
+  button.upload .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 5px -1692px;
+    width: 24px; }
+  button.sendemail .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 6px -1156px;
+    width: 20px; }
+  button.exclamation .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 4px -387px;
+    width: 21px; }
+  button.generate .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 4px -1628px;
+    width: 22px; }
+  button.exportCsv .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) 7px -1598px no-repeat;
+    width: 28px; }
+  button.clear .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 5px -357px;
+    width: 21px; }
+  button.order .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 7px -477px;
+    width: 25px; }
+  button.order.desc .icon {
+    background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 7px -508px;
+    width: 25px; }
+

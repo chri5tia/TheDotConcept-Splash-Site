@@ -1,0 +1,121 @@
+#todoyutimetrackingheadlettracking {
+    /*
+   * ----------------------------------------------
+   * Active tracking
+   * ----------------------------------------------
+   */
+    /*
+   * ----------------------------------------------
+   * Inactive tracking
+   * ----------------------------------------------
+   */ }
+  #todoyutimetrackingheadlettracking a.button {
+    background: url(../../../../../../ext/timetracking/asset/css/../img/icons.png) no-repeat 1px -235px; }
+    #todoyutimetrackingheadlettracking a.button.tracking {
+      background-position: 1px -55px; }
+  #todoyutimetrackingheadlettracking .content {
+    margin-left: -380px;
+    width: 575px;
+    padding: 2px;
+    padding-top: 3px; }
+    #todoyutimetrackingheadlettracking .tracking > div {
+      display: inline-block;
+      vertical-align: top; }
+    #todoyutimetrackingheadlettracking .tracking .taskDetails {
+      width: 270px;
+      overflow: hidden;
+      border-right: 1px solid #dddddd;
+      margin-left: 3px; }
+      #todoyutimetrackingheadlettracking .tracking .taskDetails a {
+        display: inline-block !important;
+        width: 100%;
+        padding: 0;
+        height: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+        #todoyutimetrackingheadlettracking .tracking .taskDetails a:hover {
+          background-color: #eeeeee; }
+    #todoyutimetrackingheadlettracking .tracking .taskTime {
+      width: 260px;
+      margin-left: 5px; }
+      #todoyutimetrackingheadlettracking .tracking .taskTime > div {
+        display: inline-block;
+        height: 15px; }
+      #todoyutimetrackingheadlettracking .tracking .taskTime .currentTracking {
+        font-weight: bold; }
+      #todoyutimetrackingheadlettracking .tracking .taskTime .estimatedWorkload {
+        float: left;
+        margin-left: 5px; }
+      #todoyutimetrackingheadlettracking .tracking .taskTime .tracking {
+        height: 15px; }
+        #todoyutimetrackingheadlettracking .tracking .taskTime .percent .number {
+          float: left;
+          margin-right: 5px; }
+        #todoyutimetrackingheadlettracking .tracking .taskTime .percent .bar {
+          width: 100px;
+          height: 12px;
+          display: block;
+          float: left;
+          border: 1px solid #dddddd;
+          background-color: #e3eace; }
+          #todoyutimetrackingheadlettracking .tracking .taskTime .percent .bar .progress {
+            background-color: #c8ddbe;
+            display: inline-block;
+            height: 100%; }
+    #todoyutimetrackingheadlettracking .tracking .stop {
+      position: absolute;
+      top: 10px;
+      right: 4px; }
+      #todoyutimetrackingheadlettracking .tracking .stop .icon {
+        background-position: 5px 1px; }
+  #todoyutimetrackingheadlettracking .inactive {
+    padding: 2px; }
+    #todoyutimetrackingheadlettracking .inactive > li {
+      border-left-width: 4px;
+      border-left-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: #dddddd;
+      display: block;
+      padding: 5px;
+      background-color: white;
+      position: relative;
+      height: 15px; }
+      #todoyutimetrackingheadlettracking .inactive > li > div {
+        display: inline-block;
+        height: 18px; }
+      #todoyutimetrackingheadlettracking .inactive > li .title {
+        cursor: pointer;
+        width: 520px; }
+        #todoyutimetrackingheadlettracking .inactive > li .title > div {
+          display: inline-block;
+          height: 18px;
+          vertical-align: top; }
+        #todoyutimetrackingheadlettracking .inactive > li .title .taskNumber {
+          width: 60px; }
+        #todoyutimetrackingheadlettracking .inactive > li .title .taskTitle {
+          width: 400px; }
+          #todoyutimetrackingheadlettracking .inactive > li .title .taskTitle .project,
+          #todoyutimetrackingheadlettracking .inactive > li .title .taskTitle .task {
+            display: inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+          #todoyutimetrackingheadlettracking .inactive > li .title .taskTitle .project {
+            width: 43%; }
+          #todoyutimetrackingheadlettracking .inactive > li .title .taskTitle .task {
+            width: 54%;
+            font-weight: bold;
+            margin-left: 5px; }
+        #todoyutimetrackingheadlettracking .inactive > li .title .taskTime {
+          width: 50px; }
+      #todoyutimetrackingheadlettracking .inactive > li .trackingButton {
+        position: absolute;
+        right: 4px;
+        width: 32px; }
+        #todoyutimetrackingheadlettracking .inactive > li .trackingButton button {
+          width: 32px;
+          margin-top: -5px; }
+          #todoyutimetrackingheadlettracking .inactive > li .trackingButton button .label {
+            display: none; }
+

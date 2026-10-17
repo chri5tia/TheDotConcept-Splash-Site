@@ -1,0 +1,29 @@
+; $Id$
+name = Family Tree
+description = An easy-to-use but extensive family tree for your Drupal website.
+core = 7.x
+dependencies[] = token
+dependencies[] = views
+files[] = family.module
+files[] = family.install
+files[] = import.inc
+files[] = view.inc
+files[] = family.views.inc
+files[] = family.views_default.inc
+files[] = EstimateDates.inc
+files[] = common.inc
+files[] = group.inc
+files[] = individual.inc
+files[] = location.inc
+files[] = tree.inc
+files[] = views.inc
+files[] = views/family_views_handler_date.inc
+files[] = views/family_views_handler_location.inc
+files[] = views/family_views_handler_parent.inc
+
+; Information added by drupal.org packaging script on 2011-09-20
+version = "7.x-1.0"
+core = "7.x"
+project = "family"
+datestamp = "1316552204"
+

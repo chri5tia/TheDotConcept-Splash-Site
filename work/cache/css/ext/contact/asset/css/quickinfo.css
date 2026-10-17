@@ -1,0 +1,17 @@
+/*
+ * -------------------------------------
+ * QuickInfo icons for person infos
+ * -------------------------------------
+ */
+#quickinfo dt.nameIcon {
+  background: url(../../../../../../ext/contact/asset/css/../img/icons.png) no-repeat 4px 2px; }
+
+#quickinfo dt.emailIcon {
+  background: url(../../../../../../ext/contact/asset/css/../img/icons.png) no-repeat 5px -296px; }
+
+#quickinfo dt.phoneIcon {
+  background: url(../../../../../../ext/contact/asset/css/../img/icons.png) no-repeat 4px -268px; }
+
+#quickinfo dt.birthdayIcon {
+  background: url(../../../../../../ext/contact/asset/css/../img/icons.png) no-repeat 5px -328px; }
+

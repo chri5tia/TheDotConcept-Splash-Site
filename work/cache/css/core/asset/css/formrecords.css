@@ -1,0 +1,31 @@
+  .typeRecords .results,
+  .typeRecords .selection {
+    list-style: none inside;
+    padding-left: 4px;
+    padding-bottom: 0;
+    line-height: 150%; }
+    .typeRecords .results li,
+    .typeRecords .selection li {
+      padding: 4px;
+      display: block; }
+      .typeRecords .results li .recordIcon,
+      .typeRecords .selection li .recordIcon {
+        margin-right: 5px; }
+  .typeRecords .results {
+    border: 1px solid #cccccc;
+    background-color: #f8f8f8;
+    border-top: none;
+    margin-top: -1px; }
+    .typeRecords .results li {
+      cursor: pointer; }
+      .typeRecords .results li:hover {
+        background-color: #eeeeee; }
+      .typeRecords .results li.hot {
+        font-weight: bold; }
+  .typeRecords .selection {
+    margin-top: 5px; }
+      .typeRecords .selection li .remove {
+        float: right;
+        background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 2px -358px;
+        cursor: pointer; }
+

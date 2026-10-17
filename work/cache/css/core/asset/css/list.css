@@ -1,0 +1,73 @@
+/*
+ * ---------------------------------------
+ * Standard Table
+ * ---------------------------------------
+ */
+table.list {
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  table-layout: fixed; }
+  table.list.autoWidthTable {
+    width: auto; }
+  table.list col.icon {
+    width: 30px; }
+  table.list th,
+  table.list td {
+    padding: 3px 12px 3px 12px;
+    vertical-align: top;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+    table.list th > span.icon,
+    table.list td > span.icon {
+      height: 25px;
+      margin: -2px 4px -8px -2px; }
+    table.list tr.nowrap {
+      white-space: nowrap; }
+  table.list a {
+    text-decoration: underline; }
+    table.list a:focus {
+      outline: none; }
+  table.list a:hover {
+    background-color: #eeeeee; }
+
+/*
+ * ------------
+ * Hover
+ * ------------
+ */
+table.withMouseHover tr:hover,
+table.withMouseHover tr:hover .odd,
+table.withMouseHover tr:hover .even,
+ul.withMouseHover li.odd:hover,
+ul.withMouseHover li.even:hover {
+  background-color: #f8f8f8 !important; }
+
+table.withMouseHover tr.header:hover {
+  background-color: transparent !important; }
+
+/*
+ * -----------------------------------
+ * Odd and even alternation, hover
+ * ----------------------------------
+ */
+table.list tr.odd,
+table.listsimple tr.odd,
+li.odd {
+  background-color: #eeeeee; }
+
+table.list tr.even,
+table.listsimple tr.even,
+li.even {
+  background-color: white; }
+
+#extendlisting a {
+  display: block;
+  font-weight: bold;
+  padding: 9px 0 9px 20px;
+  background: url(../../../../../core/asset/css/../img/icons.png) no-repeat 5px -289px;
+  cursor: pointer; }
+  #extendlisting a:hover {
+    background-color: #f8f8f8; }
+

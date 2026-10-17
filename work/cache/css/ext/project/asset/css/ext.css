@@ -1,0 +1,333 @@
+/*
+ * ----------------------------------------------
+ * Extension icon: stand-alone and in heading
+ * ----------------------------------------------
+ */
+span.extIconProject {
+  background: url(../../../../../../ext/project/asset/css/../img/exticon.png) no-repeat 0 0; }
+
+h1.extIconProject .title {
+  background: url(../../../../../../ext/project/asset/css/../img/exticon.png) no-repeat 0 5px; }
+
+/*
+ * -----------------
+ * Sub menu
+ * -----------------
+ */
+/*
+ * Projects
+ */
+#navi-main-list-project li.item a,
+#navi-main-list-search li.itemSearchProject a {
+  background-image: url(../../../../../../ext/project/asset/css/../img/icons.png) !important;
+  background-repeat: no-repeat;
+  background-position: 6px -446px; }
+
+/*
+ * Search
+ */
+#navi-main-list-search li.itemSearchTask a {
+  background-image: url(../../../../../../ext/project/asset/css/../img/icons.png) !important;
+  background-repeat: no-repeat;
+  background-position: 6px 6px; }
+
+/*
+ * ------------------------
+ * Quick create wizard popUp styling
+ * ------------------------
+ */
+#quickcreate.dialog.project div#quickcreate_top.dialog_title {
+  padding: 0 0 0 22px;
+  background: url(../../../../../../ext/project/asset/css/../img/icons.png) no-repeat 0 -355px; }
+
+#quickcreate.dialog.task div#quickcreate_top.dialog_title {
+  padding: 0 0 0 22px;
+  background: url(../../../../../../ext/project/asset/css/../img/icons.png) no-repeat 0 2px; }
+
+/*
+ * -----------------------------------------------
+ * Quick create (headlet) mode selector entries
+ * -----------------------------------------------
+ */
+#todoyuheadletquickcreate li.itemProjectProject a {
+  background: url(../../../../../../ext/project/asset/css/../img/icons.png) no-repeat 5px -388px; }
+
+#todoyuheadletquickcreate li.itemProjectTask a {
+  background: url(../../../../../../ext/project/asset/css/../img/icons.png) no-repeat 5px -58px; }
+
+/*
+ * -----------------
+ * Search
+ * -----------------
+ */
+#todoyusearchheadletquicksearch-modes li.searchmodeTask a {
+  background: url(../../../../../../ext/project/asset/css/../img/icons.png) no-repeat 3px 3px !important; }
+
+#todoyusearchheadletquicksearch form.searchmodeTask a.mode {
+  background: url(../../../../../../ext/project/asset/css/../img/icons.png) no-repeat 3px -23px !important; }
+
+#todoyusearchheadletquicksearch-modes li.searchmodeProject a {
+  background: url(../../../../../../ext/project/asset/css/../img/icons.png) no-repeat 3px -447px !important; }
+
+#todoyusearchheadletquicksearch form.searchmodeProject a.mode {
+  background: url(../../../../../../ext/project/asset/css/../img/icons.png) no-repeat 1px -614px !important; }
+
+/*
+ * -----------------------------------------------
+ * Search Listing of Projects
+ * -----------------------------------------------
+ */
+
+
+.projectlist .headerLine .projectNumber {
+  float: right;
+  padding: 0 10px; }
+
+.project h3.projectheader {
+  background-color: transparent;
+  border-bottom: 1px solid #dddddd;
+  clear: both;
+  cursor: pointer;
+  display: block;
+  height: 14px !important;
+  padding: 4px 0; }
+
+.project .expanded h3 {
+  border-bottom: none; }
+
+.projects .project h3 .headLabel {
+  border-left-style: solid;
+  border-left-width: 8px;
+  display: block;
+  float: left;
+  height: auto !important;
+  margin: -4px 0 -4px 0;
+  min-height: 14px;
+  padding: 4px 0 4px 17px; }
+
+.projects .project h3 .projectName {
+  width: 826px;
+  float: left; }
+
+.projects .project h3 .projectNumber {
+  padding: 0 10px;
+  float: right; }
+
+.projects .project.expanded h3 {
+  background-color: #dddddd;
+  border-bottom: none;
+  font-weight: bold; }
+
+/*
+ * --------------------------------------
+ * Task and project properties
+ * -------------------------------------
+ */
+.details .description a {
+  text-decoration: underline !important; }
+
+.details .description a:hover {
+  background-color: #dddddd; }
+
+.data ul {
+  margin: 0;
+  padding: 0 0 5px 14px; }
+
+.data ul li {
+  padding-left: 5px; }
+
+.data ol {
+  margin: 0 0 0 5px;
+  padding: 0 0 5px 14px; }
+
+.data ul {
+  list-style: disc; }
+
+.data ul.ulList {
+  padding: 0; }
+
+.data ul.assignedPersons li span {
+  padding-left: 20px; }
+
+#project-tabs {
+  width: 100%;
+  overflow: hidden;
+  margin-top: -20px; }
+
+/*
+ * No project selected
+ */
+.noProjectSelected {
+  padding: 10px; }
+
+.noProjectSelected .option {
+  background-color: #eeeeee;
+  border: 1px solid #aaaaaa;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 10px; }
+
+.noProjectSelected p.message {
+  padding: 10px; }
+
+/*
+ * --------------------------------------
+ * Project tree tabs
+ * -------------------------------------
+ */
+#project-tabs li span.icon {
+  background: url(../../../../../../ext/project/asset/css/../img/icons.png) no-repeat 0 -445px; }
+
+/*
+ * --------------------------------------
+ * Search tabs
+ * -------------------------------------
+ */
+#search-tab-task span.icon {
+  background: url(../../../../../../ext/project/asset/css/../img/icons.png) no-repeat 0 6px; }
+
+#search-tab-project span.icon {
+  background: url(../../../../../../ext/project/asset/css/../img/icons.png) no-repeat 0 -350px; }
+
+/*
+ * --------------------------------------
+ * Tab content
+ * -------------------------------------
+ */
+.task .tabContent .tabBlock {
+  background: none; }
+  .task .tabContent .tabBlock.fForm fieldset {
+    padding-top: 15px; }
+    .task .tabContent .tabBlock.fForm fieldset legend {
+      display: none; }
+
+.task .tabContent .fForm fieldset.buttons {
+  padding-top: 0; }
+
+/*
+ * -------------------------------------
+ * Extconf and task preset set form
+ * -------------------------------------
+ */
+fieldset.defaultsforlimited {
+  margin-top: 10px;
+  border-top: 1px solid #dddddd;
+  padding-top: 10px; }
+
+/*
+ * -------------------------------------
+ * Status colors for task and project
+ * -------------------------------------
+ */
+/*
+ * planning
+ */
+.bcStatus1 {
+  border-color: #7f007f; }
+
+.bgStatus1 {
+  background-color: #7f007f; }
+
+/*
+ * open
+ */
+.bcStatus2 {
+  border-color: red; }
+
+.bgStatus2 {
+  background-color: red; }
+
+/*
+ * progress
+ */
+.bcStatus3 {
+  border-color: #ffac00; }
+
+.bgStatus3 {
+  background-color: #ffac00; }
+
+/*
+ * confirm
+ */
+.bcStatus4 {
+  border-color: #fffc00; }
+
+.bgStatus4 {
+  background-color: #fffc00; }
+
+/*
+ * done
+ */
+.bcStatus5 {
+  border-color: #77dc00; }
+
+.bgStatus5 {
+  background-color: #77dc00; }
+
+/*
+ * accepted
+ */
+.bcStatus6 {
+  border-color: green; }
+
+.bgStatus6 {
+  background-color: green; }
+
+/*
+ * rejected
+ */
+.bcStatus7 {
+  border-color: #a60000; }
+
+.bgStatus7 {
+  background-color: #a60000; }
+
+/*
+ * cleared
+ */
+.bcStatus8 {
+  border-color: #dbdbdb; }
+
+.bgStatus8 {
+  background-color: #dbdbdb; }
+
+/*
+ * warranty
+ */
+.bcStatus9 {
+  border-color: #6085dd; }
+
+.bgStatus9 {
+  background-color: #6085dd; }
+
+/*
+ * customer
+ */
+.bcStatus10 {
+  border-color: pink; }
+
+.bgStatus10 {
+  background-color: pink; }
+
+/*
+ * ---------------------------------
+ * Project details task preset
+ * --------------------------------
+ */
+.project .infoBox.expandable h4 {
+  cursor: pointer;
+  background-image: url(../../../../../../ext/project/asset/css/../img/icons.png);
+  background-repeat: no-repeat;
+  background-position: right -745px; }
+  .project .infoBox.expandable h4.closed {
+    background-position: right -775px; }
+
+/*
+ * -----------------------------
+ * Records form elements
+ * ----------------------------
+ */
+.fElement.typeRecords.recordsProject .recordIcon {
+  background: url(../../../../../../ext/project/asset/css/../img/icons.png) no-repeat 2px -354px; }
+

@@ -1,0 +1,32 @@
+<?php
+/* template head */
+/* end template head */ ob_start(); /* template body */ ?>
+/****************************************************************************
+* todoyu is published under the BSD License:
+* http://www.opensource.org/licenses/bsd-license.php
+*
+* Copyright (c) 2012, snowflake productions GmbH, Switzerland
+* All rights reserved.
+*
+* This script is part of the todoyu project.
+* The todoyu project is free software; you can redistribute it and/or modify
+* it under the terms of the BSD License.
+*
+* This script is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the BSD License
+* for more details.
+*
+* This copyright notice MUST APPEAR in all copies of the script.
+*****************************************************************************/
+
+// IMPORTANT: Do not use jsDoc comments as they would be mistaken for dwoo plugin commands
+
+/**
+ * Todoyu config
+ *
+ * @namespace	Todoyu.Config
+ */
+var todoyuTempConfig = <?php echo json_encode((isset($this->scope["config"]) ? $this->scope["config"] : null));?>;<?php  /* end template body */
+return $this->buffer . ob_get_clean();
+?>

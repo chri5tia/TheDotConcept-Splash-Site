@@ -1,0 +1,35 @@
+  #panelwidget-searchfilterlist div.panelwidgetContent {
+    margin-top: 0; }
+    #panelwidget-searchfilterlist .listItem.separator {
+      margin-top: -1px;
+      background: #cccccc;
+      border-bottom: 0px; }
+      #panelwidget-searchfilterlist .listItem.separator .title {
+        padding-left: 20px;
+        text-transform: uppercase; }
+    #panelwidget-searchfilterlist .listItem .title {
+      display: inline-block;
+      width: 50%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+    #panelwidget-searchfilterlist .listItem .actions a {
+      background: transparent url(../../../../../../ext/search/asset/css/../../../../core/asset/img/icons.png) no-repeat scroll !important; }
+      #panelwidget-searchfilterlist .listItem .actions a.save {
+        background-position: 5px -209px !important; }
+      #panelwidget-searchfilterlist .listItem .actions a.delete {
+        background-position: 4px -330px !important; }
+      #panelwidget-searchfilterlist .listItem .actions a.visibility {
+        background-position: 4px -1079px !important; }
+      #panelwidget-searchfilterlist .listItem .actions a.rename {
+        background-position: 5px -149px !important; }
+      #panelwidget-searchfilterlist .listItem .actions a.invisible {
+        opacity: 0.3; }
+  #panelwidget-searchfilterlist button {
+    margin-top: 10px; }
+    #panelwidget-searchfilterlist button.addseparator .icon {
+      background: transparent url(../../../../../../ext/search/asset/css/../../../../core/asset/img/icons.png) no-repeat 3px -27px; }
+
+#panelwidget-searchfilterlistsearchFilterButton {
+  padding: 5px; }
+

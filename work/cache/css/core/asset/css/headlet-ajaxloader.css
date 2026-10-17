@@ -1,0 +1,11 @@
+#todoyuheadletajaxloader {
+  width: 27px;
+  height: 26px; }
+  #todoyuheadletajaxloader .button {
+    background: url(../../../../../core/asset/css/../img/ajax-loader.gif) no-repeat 7px 5px;
+    border: none; }
+  li#todoyuheadletajaxloader a {
+    cursor: wait; }
+    li#todoyuheadletajaxloader a:hover {
+      background-color: transparent !important; }
+

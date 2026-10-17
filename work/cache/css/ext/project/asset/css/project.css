@@ -1,0 +1,274 @@
+/*
+ * --------------
+ * Header
+ * --------------
+ */
+#projects h1.headerLine {
+  cursor: pointer; }
+
+h1.headerLine span.projectIcons {
+  float: right;
+  margin-top: 4px; }
+
+/*
+ * ----------------
+ * Task tree
+ * ----------------
+ */
+/*
+ * lost tasks
+ */
+.tasks .lostTasks {
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.tasks .lostTasks .subtaskTrigger {
+  background: none !important;
+  height: 1px; }
+
+.tasks .lostTasks h2 {
+  background-color: #eeeeee;
+  font-size: 11px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  margin-bottom: 1px;
+  padding: 5px 5px 5px 20px;
+  text-transform: uppercase; }
+
+/*
+ * --------------
+ * Project
+ * --------------
+ */
+.statusPlanning .data .content {
+  background-color: white; }
+
+/*
+ * Details
+ */
+.project .projectstatus {
+  position: absolute;
+  top: 0;
+  height: 27px;
+  border-left-width: 8px;
+  border-left-style: solid; }
+
+.project .description a {
+  text-decoration: underline; }
+
+/*
+ * Assigned persons
+ */
+.project table.assignedPersons th.name {
+  width: 200px; }
+
+.project table.assignedPersons th.company {
+  width: 240px; }
+
+.project table.assignedPersons th.role {
+  width: 154px; }
+
+.formProject fieldset.basic {
+  padding-top: 15px; }
+
+/*
+ * ------------------------------------
+ * Project search modifications
+ * ------------------------------------
+ */
+#todoyu-search .project .additionalStuff {
+  display: none; }
+
+/*
+ * ------------------------------------
+ * Asset form
+ * ------------------------------------
+ */
+.assetForm .fForm {
+  padding: 0;
+  background: none; }
+
+.assetForm .fForm fieldset {
+  margin-bottom: 0; }
+
+.assetForm .fForm fieldset legend {
+  border-color: #e3eace; }
+
+/*
+ * ----------------------
+ * Project Tabs
+ * ----------------------
+ */
+#content .projectTabs .tabs {
+  top: 0;
+  left: 0;
+  width: auto;
+  margin: 0 10px; }
+
+.project .projectTabs {
+  margin-top: 10px; }
+
+.project .projectTabs .tabs li {
+  background-color: #edf1e0 !important; }
+
+.project .projectTabs .tabs li:hover,
+.project .projectTabs .tabs li.active {
+  background-color: #e3eace !important; }
+
+/*
+ * project tabs content
+ */
+.project .tabContent {
+  background-color: #e3eace; }
+
+
+.project .tabContent .tabBlock {
+  position: relative;
+  background: white; }
+
+.project .tabContent .tab {
+  padding: 5px;
+  background: white; }
+
+/*
+ * ----------------------
+ * Project Details
+ * ----------------------
+ */
+  .project .projectDetails {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px; }
+    .project .projectDetails .infoBox {
+      border: 1px solid #cccccc;
+      margin: 5px; }
+      .project .projectDetails .infoBox h4 {
+        border-bottom: 1px solid #cccccc; }
+      .project .projectDetails .infoBox .content {
+        padding: 0; }
+      .project .projectDetails .infoBox.description .content {
+        padding: 3px 3px 3px 12px; }
+    .project .projectDetails .projectDetailLeft {
+      background-color: white;
+      float: left;
+      margin-top: -1px;
+      position: relative;
+      right: 816px;
+      top: 1px; }
+    .project .projectDetails .projectDetailRight {
+      float: left;
+      position: relative;
+      overflow: hidden;
+      background-color: #eeeeee; }
+    .project .projectDetails .ajaxLoader {
+      position: absolute;
+      width: 200px;
+      height: 25px;
+      top: 150px;
+      left: 400px;
+      font-size: 25px;
+      animation: pulse 1s ease-in-out infinite; }
+  .project .infoBoxOuter {
+    background-color: white;
+    height: 100%;
+    padding: 0; }
+  .project .projectDetailsContent {
+    display: block;
+    float: left;
+    left: 816px;
+    max-width: 812px;
+    padding: 3px;
+    position: relative;
+    width: 812px; }
+  .project .projectDetailsTabs {
+    float: left;
+    height: 100%;
+    left: 818px;
+    position: relative;
+    width: 100px; }
+    .project .projectDetailsTabs .gap {
+      border-radius: 0 3px 3px 0;
+      height: 30px; }
+    .project .projectDetailsTabs .icon {
+      float: none;
+      height: 32px;
+      margin-left: 6px;
+      width: 32px; }
+    .project .projectDetailsTabs .menu {
+      background-color: #eeeeee;
+      border-radius: 0 0 0 3px;
+      box-shadow: -1px 4px 10px -10px black;
+      cursor: pointer;
+      height: 50px;
+      left: 1px;
+      margin-left: -1px;
+      position: relative; }
+      .project .projectDetailsTabs .menu .icon {
+        background: url(../../../../../../ext/project/asset/css/../img/projectheader.png) no-repeat -7px -186px; }
+      .project .projectDetailsTabs .menu .label {
+        padding-left: 6px; }
+      .project .projectDetailsTabs .tabs .projectDetailsTab {
+        background-color: white;
+        border-radius: 3px 0 0 3px;
+        border-width: 1px 0 1px 1px;
+        border: 1px solid #cccccc;
+        box-shadow: -11px 0 22px -17px black inset;
+        cursor: pointer;
+        height: 42px;
+        margin: 3px 0;
+        padding: 4px 0; }
+        .project .projectDetailsTabs .tabs .projectDetailsTab.active {
+          background-color: #eeeeee;
+          border: none;
+          box-shadow: -1px 4px 10px -10px black;
+          height: 44px;
+          left: 1px;
+          margin-left: -1px;
+          position: relative; }
+        .project .projectDetailsTabs .tabs .projectDetailsTab .label {
+          padding-left: 6px; }
+    .project .projectDetailsTabs .generalProjectTab .icon {
+      background: url(../../../../../../ext/project/asset/css/../img/projectheader.png) no-repeat -7px -124px; }
+    .project .projectDetailsTabs .preferencesProjectTab .icon {
+      background: url(../../../../../../ext/project/asset/css/../img/projectheader.png) no-repeat 0px 0px; }
+
+@keyframes pulse {
+    from {
+    opacity: 0; }
+
+
+    to {
+    opacity: 0.5; }
+ }
+@-moz-keyframes pulse {
+    from {
+    opacity: 0; }
+
+
+    to {
+    opacity: 0.5; }
+ }
+@-webkit-keyframes pulse {
+    from {
+    opacity: 0; }
+
+
+    to {
+    opacity: 0.5; }
+ }
+@-ms-keyframes pulse {
+    from {
+    opacity: 0; }
+
+
+    to {
+    opacity: 0.5; }
+ }
+@-o-keyframes pulse {
+    from {
+    opacity: 0; }
+
+
+    to {
+    opacity: 0.5; }
+ }

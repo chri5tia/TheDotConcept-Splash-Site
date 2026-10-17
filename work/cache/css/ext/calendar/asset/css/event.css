@@ -1,0 +1,510 @@
+#calendar-body .event {
+  position: absolute;
+  overflow: hidden; }
+
+#calendarBody .event {
+  border-radius: 5px; }
+
+.dayMode .event .head,
+.weekMode .event .head {
+  -moz-user-select: none;
+  overflow: hidden;
+    /*
+   * position:absolute;
+   */ }
+
+.dayMode .event .content,
+.weekMode .event .content {
+  padding: 2px; }
+
+#calendar .event .head {
+  width: 100%; }
+
+#calendarBody .event .head {
+  width: 936px;
+  height: 14px; }
+
+#calendarBody .event .head > div {
+  display: block;
+  float: left; }
+
+#calendar .event.canEdit .head {
+  cursor: move; }
+
+#calendar .event.noAccess .head,
+#calendar .event.noEdit .head {
+  cursor: no-drop !important; }
+
+.dayMode .event dd,
+.weekMode .event dd {
+  font-size: 9px;
+  padding: 2px; }
+
+.monthMode .event dl {
+  margin-bottom: 2px; }
+
+.dayCol .event {
+  z-index: 20; }
+
+/*
+ * ------------------------
+ * Event
+ * ------------------------
+ */
+  div.weekMode div#calendarBody div.event dt.head {
+    height: 15px;
+    padding: 3px 0; }
+  div.weekMode div#calendarBody div.event dd span.desc {
+    display: inline;
+    white-space: normal; }
+
+.dayevent {
+  margin: 0 0 1px;
+  height: 16px;
+  padding-top: 1px; }
+  .dayevent .head {
+    height: 16px; }
+
+.gridHeader .dayevent {
+  position: relative; }
+
+      #calendar .dayEvents .dayMode .dayEvents .event .head {
+        cursor: default; }
+  #calendar .dayEvents .event {
+    margin: 1px;
+    position: relative; }
+    #calendar .dayEvents .event .title {
+      display: inline-block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 80%; }
+    #calendar .dayEvents .event .date {
+      color: #010101; }
+    #calendar .dayEvents .event .head {
+      cursor: default; }
+    #calendar .dayEvents .event.hasAccess .head {
+      cursor: pointer; }
+
+  .event div div {
+    display: inline-block;
+    vertical-align: top; }
+  .event .head .typeIcon {
+    height: 14px;
+    width: 16px; }
+  .event .headInner {
+    font-size: 9px;
+    font-weight: normal;
+    line-height: 1.2;
+    overflow: hidden;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+    position: relative;
+    white-space: nowrap; }
+  .event .typeIcon {
+    background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat;
+    vertical-align: top; }
+  .event.typeGeneral .typeIcon {
+    background-position: 0 -660px; }
+  .event.typeAway .typeIcon {
+    background-position: 0 -690px; }
+  .event.typeEducation .typeIcon {
+    background-position: 0 -720px; }
+  .event.typeMeeting .typeIcon {
+    background-position: 0 -750px; }
+  .event.typeAwayofficial .typeIcon {
+    background-position: 0 -780px; }
+  .event.typeHomeoffice .typeIcon {
+    background-position: 0 -810px; }
+  .event.typeCompensation .typeIcon {
+    background-position: 0 -900px; }
+  .event.typeMilestone .typeIcon {
+    background-position: 0 -930px; }
+  .event.typeReminder .typeIcon {
+    background-position: 0 -960px; }
+  .event.typeBirthday .typeIcon {
+    background-image: url(../../../../../../ext/calendar/asset/css/../../../contact/asset/img/icons.png);
+    background-position: 3px -330px; }
+
+.event > div {
+  padding: 2px; }
+
+.event .description,
+.event .description * {
+  font-size: 9px; }
+
+.event.typeVacation .typeIcon,
+.event.typeHoliday .typeIcon {
+  background-position: 0 -390px; }
+
+.event.typeAway .headInner,
+.event.typeAway .type,
+.dayMode .event .typeAway,
+.monthMode .event .typeAway {
+  background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 1px -690px; }
+
+.event.typeBirthday .headInner,
+.event.typeBirthday .type,
+.dayMode .event .typeBirthday,
+.monthMode .event .typeBirthday {
+  background: url(../../../../../../ext/calendar/asset/css/../../../contact/asset/img/icons.png) no-repeat 3px -330px; }
+
+.event.typeVacation .headInner,
+.event.typeVacation .type,
+.dayMode .event .typeVacation,
+.monthMode .event .typeVacation {
+  background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 0 -390px; }
+
+.event.typeEducation .headInner,
+.event.typeEducation .type,
+.dayMode .event .typeEducation,
+.monthMode .event .typeEducation {
+  background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 0 -720px; }
+
+.event.typeMeeting .headInner,
+.event.typeMeeting .type,
+.dayMode .event .typeMeeting,
+.monthMode .event .typeMeeting {
+  background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 0 -751px; }
+
+.event.typeAwayofficial .headInner,
+.event.typeAwayofficial .type,
+.dayMode .event .typeAwayofficial,
+.monthMode .event .typeAwayofficial {
+  background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 0 -782px; }
+
+.event.typeHomeoffice .headInner,
+.event.typeHomeoffice .type,
+.dayMode .event .typeHomeoffice,
+.monthMode .event .typeHomeoffice {
+  background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 1px -811px; }
+
+.event.typeCompensation .headInner,
+.event.typeCompensation .type,
+.dayMode .event .typeCompensation,
+.monthMode .event .typeCompensation {
+  background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 0 -900px; }
+
+.event.typeMilestone .headInner,
+.event.typeMilestone .type,
+.dayMode .event .typeMilestone,
+.monthMode .event .typeMilestone {
+  background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 3px -930px; }
+
+.event.typeReminder .headInner,
+.event.typeReminder .type,
+.dayMode .event .typeReminder,
+.monthMode .event .typeReminder {
+  background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 1px -961px; }
+
+/*
+ * --------------------------------------------
+ * Events in all views (day, week, month)
+ * --------------------------------------------
+ */
+.dayview div.tg-colwrapper div.event dl,
+.weekMode div.tg-colwrapper div.event dl {
+    /*
+   * border:1px dotted $white;
+   */ }
+
+.private {
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  width: 6px;
+  height: 7px;
+  background: transparent url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat 0 -1140px; }
+
+.weekNumber {
+  float: left;
+  color: #999999; }
+
+.eventtypeicon {
+  padding-right: 16px; }
+
+  #quickinfo dt.typeGeneralIcon {
+    background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 3px -656px; }
+  #quickinfo dt.typeAwayIcon {
+    background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 4px -688px; }
+  #quickinfo dt.typeBirthdayIcon {
+    background: url(../../../../../../ext/calendar/asset/css/../../../contact/asset/img/icons.png) no-repeat 4px -328px; }
+  #quickinfo dt.typeVacationIcon {
+    background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 3px -388px; }
+  #quickinfo dt.typeEducationIcon {
+    background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 3px -718px; }
+  #quickinfo dt.typeMeetingIcon {
+    background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 3px -748px; }
+  #quickinfo dt.typeAwayofficialIcon {
+    background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 3px -777px; }
+  #quickinfo dt.typeHomeofficeIcon {
+    background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 3px -807px; }
+  #quickinfo dt.typeCompensationIcon {
+    background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 3px -898px; }
+  #quickinfo dt.typeMilestoneIcon {
+    background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 3px -927px; }
+  #quickinfo dt.typeReminderIcon {
+    background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 3px -958px; }
+
+/*
+ * ------------------------
+ * Portal events list
+ * ------------------------
+ */
+        .portalEventsList h1.headerLine span.taskDate {
+          width: 260px; }
+        .portalEventsList h1.headerLine span.eventType {
+          width: 110px; }
+  .portalEventsList h2 {
+    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+    background-color: #fcfcfc;
+    margin: 16px 0 8px 0;
+    padding: 16px 0 10px 16px; }
+
+  .portalEventsList .event .eventDetailView td.label {
+    background: none; }
+      .portalEventsList #events div.eventDetails {
+        background-color: white; }
+      .portalEventsList #events .event h3 {
+        border-left: 0; }
+      .portalEventsList #events .event .expanded {
+        border-bottom: 1px solid #dddddd; }
+        .portalEventsList #events .event .expanded h3 {
+          font-weight: bold;
+          background-color: #eeeeee; }
+      .portalEventsList #events .event .label .title {
+        width: 55%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block; }
+
+/*
+ * ----------------------
+ * Holidays in portal list
+ * ----------------------
+ */
+.holidays {
+  background: #aaaaaa url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 0 -390px;
+  padding: 0 0 0 15px;
+  margin: 0 0 2px 1px;
+  color: white;
+  overflow: hidden;
+  min-height: 17px; }
+
+/*
+ * ----------------------
+ * Birthdays in portal list
+ * ----------------------
+ */
+    #portalListBirthdays .event div {
+      display: inline-block;
+      padding: 5px 0; }
+    #portalListBirthdays .event.odd {
+      background-color: #eeeeee; }
+    #portalListBirthdays .event .type {
+      background-position: 0 -325px;
+      height: 16px;
+      margin-left: 10px;
+      margin-right: 5px;
+      width: 30px; }
+    #portalListBirthdays .event .date {
+      width: 200px; }
+    #portalListBirthdays .event .name {
+      width: 250px; }
+    #portalListBirthdays .event .age {
+      width: 70px; }
+
+/*
+ * -------------------------
+ * List mode in portal
+ * -------------------------
+ */
+#holidays h3 {
+  background-color: white;
+  white-space: normal; }
+  #holidays h3.holidaysList {
+    padding-left: 10px; }
+  #holidays h3.odd {
+    background-color: #eeeeee; }
+
+  #events h3 {
+    background-color: white;
+    border-bottom: 1px solid #dddddd; }
+      #events h3 span.icon.acknowledge {
+                /*
+         * margin-right:10px;
+         */ }
+        #events h3 span.icon.acknowledge.not {
+          background: transparent url(../../../../../../ext/calendar/asset/css/../../../../core/asset/img/icons.png) no-repeat 0 -1260px;
+          cursor: pointer; }
+          #events h3 span.icon.acknowledge.not.updated {
+            background: transparent url(../../../../../../ext/calendar/asset/css/../../../../core/asset/img/icons.png) no-repeat 0 -1434px;
+            cursor: pointer; }
+  #events .details {
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee; }
+    #events .details .label {
+      padding-left: 10px; }
+    #events .details .left {
+      float: left;
+      width: 380px; }
+    #events .details .right {
+      float: right;
+      width: 280px; }
+      #events .details .right dt {
+        float: left;
+        width: 100px; }
+      #events .details .right dd {
+        float: left;
+        width: 180px; }
+        #events .details .right dd span {
+          padding-left: 13px; }
+    #events .event .headLabel {
+      padding: 0 0 0 20px; }
+      #events .event .headLabel .icon {
+        padding: 0 5px 0 0; }
+    #events .event h3 .label {
+      cursor: pointer; }
+      #events .event h3 .label .date {
+        display: inline-block;
+        width: 238px; }
+      #events .event h3 .label .eventtype {
+        display: inline-block;
+        width: 100px; }
+
+  div.eventDetails dt {
+    clear: both;
+    float: left;
+    line-height: 18px;
+    text-align: left; }
+  div.eventDetails dd {
+    float: right;
+    line-height: 18px;
+    width: 520px;
+    text-align: left; }
+
+#events .event h3 .label .eventtype,
+#events .event h3 .label .title {
+  border-left: 1px solid #dddddd;
+  padding: 0 5px 1px; }
+
+/*
+ * -------------------------------------
+ * Holidays list
+ * -------------------------------------
+ */
+  #holidays .holidayDate {
+    padding-left: 38px;
+    width: 25%; }
+    #holidays .holidayDate.hasIcon {
+      background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat scroll 0 -390px; }
+  #holidays .holidaysList span {
+    display: block;
+    float: left; }
+  #holidays .holidayTitle {
+    padding-left: 20px;
+    float: left;
+    width: 50%; }
+  #holidays .holidayWorkinghours {
+    position: relative;
+    width: 15%; }
+
+/*
+ * -----------------------------------------
+ * Event attendee persons
+ * ------------------------------------------
+ */
+/*
+ * Person has acknowledged the event
+ */
+.eventperson-acknowledged {
+  padding-left: 20px;
+  background: transparent url(../../../../../../ext/calendar/asset/css/../../../../core/asset/img/icons.png) no-repeat 0 -1314px; }
+
+/*
+ * Person has not acknowledged the event
+ */
+.eventperson-unacknowledged {
+  padding-left: 20px;
+  background: transparent url(../../../../../../ext/calendar/asset/css/../../../../core/asset/img/icons.png) no-repeat 0 -1288px; }
+
+/*
+ * Person has acknowledged event AND received it via email
+ */
+.eventperson-acknowledged-email {
+  padding-left: 23px;
+  background: transparent url(../../../../../../ext/calendar/asset/css/../../../../core/asset/img/icons.png) no-repeat 0 -1402px; }
+
+/*
+ * Person has NOT acknowledged event AND received it via email
+ */
+.eventperson-unacknowledged-email {
+  padding-left: 23px;
+  background: transparent url(../../../../../../ext/calendar/asset/css/../../../../core/asset/img/icons.png) no-repeat 0 -1368px; }
+
+/*
+ * ---------------------------
+ * Detail view
+ * ---------------------------
+ */
+table.eventDetailView {
+  width: 100%; }
+  table.eventDetailView span.reminderLabel {
+    font-weight: bold; }
+  table.eventDetailView td {
+    text-align: left;
+    padding: 7px 0 7px 0; }
+    table.eventDetailView td a {
+      text-decoration: underline; }
+    table.eventDetailView td.label {
+      font-weight: bold;
+      width: 120px;
+      padding-left: 2px; }
+      table.eventDetailView td.description ol,
+      table.eventDetailView td.description ul {
+        list-style-position: inside; }
+      table.eventDetailView td.description ul {
+        list-style-type: disc; }
+        table.eventDetailView td.description ul li {
+          padding: 0 0 0 6px; }
+
+table.eventDetailView tr.odd,
+table.eventDetailView tr.even {
+  border-bottom: 1px solid #dddddd; }
+
+button.editEvent .icon {
+  background: url(../../../../../../ext/calendar/asset/css/../img/icons.png) no-repeat 4px -27px;
+  width: 22px; }
+
+/*
+ * ----------------------
+ * Edit view
+ * ----------------------
+ */
+#formElement-event-field-date-start {
+  clear: both; }
+
+#event-field-date-start.dayEvent,
+#event-field-date-end.dayEvent {
+  width: 65px; }
+
+/*
+ * -------------------------------------------------
+ * Mailing popup shown after delete / drag&drop
+ * -------------------------------------------------
+ */
+div.mailing fieldset.autoemail {
+  padding: 10px 15px 15px; }
+  div.mailing fieldset.autoemail legend {
+    display: block; }
+
+    #calendar-view .headerLine .innerTitle {
+      display: inline-block;
+      max-width: 50%;
+      padding-left: 10px;
+      padding-right: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+

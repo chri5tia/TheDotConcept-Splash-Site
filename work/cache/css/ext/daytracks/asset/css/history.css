@@ -1,0 +1,246 @@
+/*
+ * ---------------------
+ * Container
+ * ------------------------
+ */
+#daytracks-history {
+  margin: 5px;
+  text-align: left; }
+    #daytracks-history form select {
+      width: 140px; }
+  #daytracks-history .selectors {
+    padding: 8px;
+    background-color: #eeeeee; }
+    #daytracks-history .selectors select {
+      background-color: white; }
+    #daytracks-history .selectors .floatLeft label {
+      line-height: 18px; }
+    #daytracks-history .selectors .toggleDetails {
+      margin-left: 5px; }
+      #daytracks-history .selectors .toggleDetails a {
+        padding: 0; }
+        #daytracks-history .selectors .toggleDetails a.close {
+          background: transparent url(../../../../../../ext/daytracks/asset/css/../img/icons.png) no-repeat 0 -30px; }
+        #daytracks-history .selectors .toggleDetails a.open {
+          background: transparent url(../../../../../../ext/daytracks/asset/css/../img/icons.png) no-repeat 0 -60px; }
+    #daytracks-history .selectors #showtracksdetails {
+      top: 2px; }
+
+#daytracks-history .detailsToggle,
+#daytracks-history .detailsToggle * {
+  cursor: pointer; }
+
+#daytracks-history-trackings div.divider,
+#daytracks-history-trackings .details div.divider {
+  height: 1px;
+  background-color: #dddddd;
+  padding: 0;
+  border: none;
+  margin: -1px 0 1px 0; }
+
+/*
+ * ---------------------
+ * Button icons
+ * ------------------------
+ */
+  button.daytracksexpand .icon {
+    background: transparent url(../../../../../../ext/daytracks/asset/css/../img/icons.png) no-repeat 0 -60px !important; }
+  button.daytrackscollapse .icon {
+    background: transparent url(../../../../../../ext/daytracks/asset/css/../img/icons.png) no-repeat 0 -30px !important; }
+
+/*
+ * ----------------------
+ * Month info box
+ * ----------------------
+ */
+.monthInfo {
+  padding: 5px;
+  margin: 0 0 8px 0;
+  background-color: white; }
+  .monthInfo dt {
+    float: left;
+    width: 110px; }
+  .monthInfo dd {
+    float: left;
+    width: 110px; }
+
+/*
+ * ---------------------
+ * Tracks
+ * ------------------------
+ */
+#daytracks-history-trackings {
+  margin: 10px 0;
+  padding-bottom: 5px;
+  border: 0 solid #bababa; }
+  #daytracks-history-trackings h1 {
+    background: #ececec;
+      /*
+   * Old browsers
+   */
+    background: -moz-linear-gradient(top, #ececec 0%, #cecece 100%);
+      /*
+   * FF3.6+
+   */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ececec), color-stop(100%, #cecece));
+      /*
+   * Chrome,Safari4+
+   */
+    background: -webkit-linear-gradient(top, #ececec 0%, #cecece 100%);
+      /*
+   * Chrome10+,Safari5.1+
+   */
+    background: -o-linear-gradient(top, #ececec 0%, #cecece 100%);
+      /*
+   * Opera 11.10+
+   */
+    background: -ms-linear-gradient(top, #ececec 0%, #cecece 100%);
+      /*
+   * IE10+
+   */
+    background: linear-gradient(to bottom, #ececec 0%, #cecece 100%);
+      /*
+   * W3C
+   */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#cecece', GradientType=0 );
+      /*
+   * IE6-9
+   */
+    margin-bottom: 6px; }
+    #daytracks-history-trackings h1.monthTotal,
+    #daytracks-history-trackings h1.cwTotal {
+      padding: 5px 5px 5px 10px; }
+    #daytracks-history-trackings h1.cwTotal {
+      border: none;
+      text-align: right; }
+      #daytracks-history-trackings .details a:hover div {
+        background-color: #ffffbb; }
+        #daytracks-history-trackings .details a div.daytrackdetail {
+          margin-bottom: 1px; }
+          #daytracks-history-trackings .details a div.daytrackdetail.deleted {
+            background-color: #f8f8f8; }
+            #daytracks-history-trackings .details a div.daytrackdetail.deleted * {
+              color: #666666; }
+  #daytracks-history-trackings .daytrack.toggled {
+    background-color: #eeeeee;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+
+#daytracks-history-trackings .details div,
+#daytracks-history-trackings .daytrack {
+  border-left: 4px solid;
+  background-color: white;
+  padding: 5px;
+  text-align: left;
+    /*
+   * planning
+   */
+    /*
+   * open
+   */
+    /*
+   * progress
+   */
+    /*
+   * confirm
+   */
+    /*
+   * done
+   */
+    /*
+   * accepted
+   */
+    /*
+   * rejected
+   */
+    /*
+   * cleared
+   */
+    /*
+   * warranty
+   */
+    /*
+   * customer
+   */ }
+  #daytracks-history-trackings .details div.daytracksum,
+  #daytracks-history-trackings .daytrack.daytracksum {
+    border-color: white; }
+  #daytracks-history-trackings .details div.bcStatus1,
+  #daytracks-history-trackings .daytrack.bcStatus1 {
+    border-color: #7f007f; }
+  #daytracks-history-trackings .details div.bcStatus2,
+  #daytracks-history-trackings .daytrack.bcStatus2 {
+    border-color: red; }
+  #daytracks-history-trackings .details div.bcStatus3,
+  #daytracks-history-trackings .daytrack.bcStatus3 {
+    border-color: #ffac00; }
+  #daytracks-history-trackings .details div.bcStatus4,
+  #daytracks-history-trackings .daytrack.bcStatus4 {
+    border-color: #fffc00; }
+  #daytracks-history-trackings .details div.bcStatus5,
+  #daytracks-history-trackings .daytrack.bcStatus5 {
+    border-color: #77dc00; }
+  #daytracks-history-trackings .details div.bcStatus6,
+  #daytracks-history-trackings .daytrack.bcStatus6 {
+    border-color: green; }
+  #daytracks-history-trackings .details div.bcStatus7,
+  #daytracks-history-trackings .daytrack.bcStatus7 {
+    border-color: #a60000; }
+  #daytracks-history-trackings .details div.bcStatus8,
+  #daytracks-history-trackings .daytrack.bcStatus8 {
+    border-color: #dbdbdb; }
+  #daytracks-history-trackings .details div.bcStatus9,
+  #daytracks-history-trackings .daytrack.bcStatus9 {
+    border-color: #6085dd; }
+  #daytracks-history-trackings .details div.bcStatus10,
+  #daytracks-history-trackings .daytrack.bcStatus10 {
+    border-color: pink; }
+    #daytracks-history-trackings .details div.notInCurrentMonth span,
+    #daytracks-history-trackings .daytrack.notInCurrentMonth span {
+      color: #bbbbbb; }
+
+#daytracks-history-trackings .details div .daytrackdetail.last,
+#daytracks-history-trackings .daytrack.last,
+.daytrackdetail.last {
+  border-bottom: none !important; }
+
+span.daytrackDate {
+  display: inline-block;
+  width: 150px;
+  padding: 0 20px 0 20px;
+  text-align: right; }
+
+.toggled span.daytrackDate {
+  width: auto; }
+
+span.daytrackHours,
+.daytrackdetail .tasktitle,
+.daytrackdetail .time,
+.daytrackdetail .cw,
+span.daytrackCW {
+  padding-left: 15px; }
+
+span.daytrackHours {
+  padding-left: 20px; }
+
+    #daytracks-history-trackings .daytrackdetail span.task {
+      text-align: left; }
+        #daytracks-history-trackings .daytrackdetail span.task span.tasknumber {
+          width: 60px;
+          display: inline-block;
+          text-align: right;
+          vertical-align: top; }
+        #daytracks-history-trackings .daytrackdetail span.task span.tasktitle {
+          width: 330px;
+          padding-right: 10px;
+          display: inline-block;
+          vertical-align: top; }
+    #daytracks-history-trackings .daytrackdetail span.time {
+      width: 80px;
+      display: inline-block;
+      text-align: right; }
+  #daytracks-history-trackings .toggled {
+    border-width: 1px 0; }
+  #daytracks-history-trackings .total {
+    border-style: solid; }
+

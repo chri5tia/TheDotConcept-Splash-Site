@@ -1,0 +1,81 @@
+/*
+ * -----------------------------------
+ * Project selector
+ * -----------------------------------
+ */
+  #panelwidget-projectselector h5 {
+    margin-bottom: 2px; }
+  #panelwidget-projectselector li {
+    border-left: 5px solid white;
+    padding-left: 2px; }
+    #panelwidget-projectselector li a {
+      width: 250px; }
+    #panelwidget-projectselector li.group a {
+      background: url(../../../../../../ext/project/asset/css/../../../sysmanager/asset/img/icons.png) no-repeat 2px -210px; }
+    #panelwidget-projectselector li.project a {
+      background: url(../../../../../../ext/project/asset/css/../img/icons.png) no-repeat 2px -354px; }
+    #panelwidget-projectselector li.virtualgroup a {
+      background: url(../../../../../../ext/project/asset/css/../img/panelwidget-projectselector.png) no-repeat 2px 0; }
+  #panelwidget-projectselector .selection li a span.deletegroup {
+    margin-right: 58px !important; }
+
+#panelwidget-projectselector li {
+  border-left: 3px solid white; }
+  #panelwidget-projectselector li.hot a {
+    font-weight: bold; }
+    #panelwidget-projectselector li.statusPlanning {
+      border-left: 3px solid #7f007f; }
+    #panelwidget-projectselector li.statusOpen {
+      border-left: 3px solid red; }
+    #panelwidget-projectselector li.statusProgress {
+      border-left: 3px solid #ffac00; }
+    #panelwidget-projectselector li.statusConfirm {
+      border-left: 3px solid #fffc00; }
+    #panelwidget-projectselector li.statusDone {
+      border-left: 3px solid #77dc00; }
+    #panelwidget-projectselector li.statusAccepted {
+      border-left: 3px solid green; }
+    #panelwidget-projectselector li.statusRejected {
+      border-left: 3px solid #a60000; }
+    #panelwidget-projectselector li.statusCleared {
+      border-left: 3px solid #dbdbdb; }
+    #panelwidget-projectselector li.statusWarranty {
+      border-left: 3px solid #6085dd; }
+    #panelwidget-projectselector li.statusWaiting {
+      border-left: 3px solid pink; }
+
+#panelwidget-projectselector-selection {
+  display: inline-block;
+  margin-top: 3px;
+  padding: 5px;
+  width: 95%; }
+    #panelwidget-projectselector-selection li a {
+      width: 1000px; }
+    #panelwidget-projectselector-selection li a span {
+      background-image: url(../../../../../../ext/project/asset/css/../../../../core/asset/img/icons.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+      position: absolute;
+      float: right;
+      height: 16px;
+      margin-right: 40px;
+      width: 16px; }
+      #panelwidget-projectselector-selection li a span.add {
+        background-position: 2px -28px; }
+      #panelwidget-projectselector-selection li a span.deletegroup {
+        background-image: url(../../../../../../ext/project/asset/css/../img/panelwidget-projectselector.png);
+        background-position: 2px -32px;
+        margin-right: 2px !important; }
+      #panelwidget-projectselector-selection li a span.remove {
+        background-position: 2px -358px;
+        position: absolute;
+        right: -30px; }
+    #panelwidget-projectselector-selection li.disabled {
+      opacity: 0.5; }
+      #panelwidget-projectselector-selection li.disabled:hover {
+        opacity: 1; }
+      #panelwidget-projectselector-selection li .virtualgroup a span.add {
+        background-position: 2px -28px; }
+      #panelwidget-projectselector-selection li .virtualgroup a span.remove {
+        margin-right: -34px; }
+
