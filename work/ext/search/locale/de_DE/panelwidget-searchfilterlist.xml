@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<labels>
-	<label index="title">Filtersets</label>
-	<label index="saveFilterButton">Als neues Filterset speichern</label>
-	<label index="clearFilterArea">Filter-Bereich leeren</label>
-	<label index="addSeparator">Trenner hinzufügen</label>
-	<label index="notify.orderchanged">Geänderte Filterset Reihenfolge wurde gespeichert.</label>
-</labels>

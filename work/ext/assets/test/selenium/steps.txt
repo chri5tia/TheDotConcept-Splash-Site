@@ -1,4 +1,0 @@
-todoyu selenium testsuite steps: assets extension
-------------------------------------------------
-
-* no steps yet
